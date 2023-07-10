@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import copy
 from PIL import Image
 
-image_path = "D:\fduser_report\3-2\items\otto.jpg"
+image_path = "~\" # Your path of picture here, in format .png
 scale = 110 # scale of background picture
 
 GM =   0.01 # mass of black hole, also stands for half of schwarzchild radius
