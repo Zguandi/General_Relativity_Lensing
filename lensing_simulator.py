@@ -89,7 +89,7 @@ imagey = np_frame.shape[1]
 background = np.zeros((imagex,imagey))
 background = np_frame[:,:,0]/256
 
-vs = generate_unit_vectors(50,GRID_OB).astype(np.float32)
+vs = generate_unit_vectors(ANG_OB,GRID_OB).astype(np.float32)
 img = np.zeros((GRID_OB,GRID_OB))
 
 for i in range(GRID_OB):
